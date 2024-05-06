@@ -1,0 +1,255 @@
+@import url(http://fonts.googleapis.com/css?family=Dancing+Script);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 50px;
+    font-family: 'Dancing Script';
+    font-size: 2.5vw;
+    font-weight: 550;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 95%;
+}
+
+nav a {
+    text-decoration: none;
+    color: #d4af37;
+    font-weight: 550;
+    text-shadow: black;
+    text-shadow: 0.1vw 0.1vw 0.1vw #650015;;
+    padding: 0 1.5vw;
+}
+
+nav a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+body {
+    background-color: #FFFFF0;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    background-image: url('../Images/bg1.png');
+    max-width: 100%;
+    min-width: fit-content;
+    overflow-x: hidden;
+    width: 100%; 
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+/*Title*/
+.Names {
+  font-family: 'Dancing Script';
+  font-size: 6vw;
+  color: #d4af37;
+  font-weight: 500;
+  text-shadow: black;
+  text-shadow: 1px 1px 1px #650015;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+
+.married {
+  padding-top: 5vh;
+  font-family: 'Dancing Script';
+  font-size: 3vw;
+  color: #d4af37;
+  font-weight: 450;
+  text-shadow: black;
+  text-shadow: 0.5px 0.5px 0.5px #650015;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.date_home {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 2vw;
+  color: #d4af37;
+  font-weight: 100;
+  text-shadow:  black;
+  text-shadow: 0.5px 0.5px 0.5px #650015;
+  text-align: center;
+}
+
+/*Sunflower Image*/
+.sunflower {
+  width: 12vw;
+  height: auto;
+  max-width: 100%;
+}
+
+.venue_home {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 2vw;
+  color: #d4af37;
+  font-weight: 50;
+  text-shadow: black;
+  text-shadow: 0.5px 0.5px 0.5px #650015;
+  text-align: left;
+}
+
+/*Date, sunflower, Venue*/
+.row {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 33vw 33vw 33vw;
+  column-gap: 2.5vw;
+}
+
+.column {
+  margin-left: auto;
+  margin-right: auto;
+  width: 33.33%;
+}
+
+.left {
+  margin-left: 17vw;
+  width: 100%;
+}
+
+.middle {
+  margin-left: auto;
+  margin-right: auto;
+  height: 70%;
+}
+
+.right {
+  margin-left: -9vw;
+  width:100%
+}
+
+
+/* Big Image conatiner */
+
+
+.Home_image_container {
+    position: relative;
+    display: block;
+    justify-content: center;
+    width: 100%;
+    height: 1%;
+    max-width: 100%;
+  }
+
+  .home-image {
+    max-width: 100%;
+    height: 100%;
+    width:100%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  }
+
+
+/*Countdown Timer*/
+
+.countdown {
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 55%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.countdown_heading {
+  font-size: 4vw;
+  font-family: 'Dancing Script';
+  color: #650015;
+  font-weight: 600;
+  text-shadow: black;
+  text-shadow: 0.5px 0.5px 0.5px BLACK;
+  max-width: 100%;
+}
+
+u1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  max-width: 100%;
+
+}
+
+u1 li {
+  list-style-type: none;
+  font-size: 1vw;
+  text-transform: uppercase;
+  text-align: center;
+  color: #FFF8DC;
+  text-shadow: 1px 5px 1px #650015;
+}
+
+li span {
+  display: block;
+  font-size: 6vw;
+}
+
+li.seperator{
+  margin: 0 10px;
+  font-size: 6vw;
+  line-height: 1;
+}
+
+li:first-of-type {
+  margin-right: 2vw;
+}
+
+/*Footer*/
+
+
+
+
+
+/*Media Screen*/
+@media screen and (max-width: 200px) {
+  .Home {
+    grid-template-columns: auto auto auto auto;
+  }
+}
+
+@media screen and (max-width: 200px) {
+  .column {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 200px) {
+  .sunflower {
+    max-width: 100%;
+    height: auto;
+  }
+  
+}
+
+@media screen and (max-width: 200px) {
+  .countdown {
+    max-width: 100%;
+    height: auto;
+  }
+  
+}
+
+@media screen and (max-width: 200px) {
+  .Home_image_container {
+    max-width: 100%;
+    height: auto;
+  }
+  
+}

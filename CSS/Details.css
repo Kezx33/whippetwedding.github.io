@@ -1,0 +1,330 @@
+@import url(http://fonts.googleapis.com/css?family=Dancing+Script);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+nav {
+    height: 50px;
+    font-family: 'Dancing Script';
+    font-size: 2.5vw;
+    font-weight: 550;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 95%;
+}
+
+nav a {
+    text-decoration: none;
+    color: #d4af37;
+    font-weight: 550;
+    text-shadow: black;
+    text-shadow: 0.1vw 0.1vw 0.1vw #650015;;
+    padding: 0 1.5vw;
+}
+
+nav a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+body {
+    background-color: #FFFFF0;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    background-image: url('../Images/bg1.png');
+    background-size: cover;
+    max-width: 100%;
+    min-width: fit-content;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100%; 
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*Title*/
+.Details_TITLE {
+    font-family: 'Dancing Script';
+    font-size: 6vw;
+    color: #d4af37;
+    font-weight: 500;
+    text-shadow: black;
+    text-shadow: 1px 1px 1px #650015;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+
+/*Deets*/
+
+/*where when*/
+
+.WhereWhen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100vw;
+    padding: 20px 20px 20px 20px;
+    background-color:#650015;
+    margin: 20px 20px 20px 20px;
+    box-shadow: 5px 5px 5px 5px grey;
+    margin-top: 5vh;
+}
+
+.Img1 {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 5px 5px 5px 5px black;
+    background-color:antiquewhite;
+}
+
+.WhereWhenImg {
+    max-width: 30vw;
+    height: auto;
+    padding: 2vw 2vw 2vw 2vw;
+    background-color:antiquewhite;
+}
+
+.T1 {
+    font-family: 'Dancing Script';
+}
+
+.text1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #d4af37;
+    text-shadow: 1px 1px 1px black;
+    font-size: 2vw;
+    padding: 2px 20px 2px 2px;
+}
+
+
+/*DressCode*/
+
+.DressCode {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100vw;
+    padding: 20px 20px 20px 20px;
+    background-color: #650015;
+    margin: 20px 20px 20px 20px;
+    box-shadow: 5px 5px 5px 5px grey;
+    margin-top: 5vh;
+    
+}
+
+.Img2 {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 5px 5px 5px 5px black;
+    background-color:antiquewhite;
+}
+
+.DressCodeImg {
+    max-width: 25vw;
+    height: auto;
+    padding: 2vw 2vw 2vw 2vw;
+    background-color:antiquewhite;
+}
+
+.text2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #d4af37;
+    text-shadow: 1px 1px 1px black;
+    font-size: 2vw;
+    margin-left: 3vw;
+}
+
+
+
+
+/*RSVP*/
+
+.RSVPDate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100vw;
+    padding: 20px 20px 20px 20px;
+    background-color: #650015;
+    margin: 20px 20px 20px 20px;
+    box-shadow: 5px 5px 5px 5px grey;
+    margin-top: 5vh;
+}
+
+.Img3 {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 5px 5px 5px 5px black;
+    background-color:antiquewhite;
+}
+
+.EngagementImg {
+    max-width: 20vw;
+    height: auto;
+    padding: 2vw 2vw 2vw 2vw;
+    background-color:antiquewhite;
+}
+
+
+/*Kids*/
+
+.Kids {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100vw;
+    padding: 20px 20px 20px 20px;
+    background-color: #650015;
+    margin: 20px 20px 20px 20px;
+    box-shadow: 5px 5px 5px 5px grey;
+    margin-top: 5vh;
+}
+
+.Img4 {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 5px 5px 5px 5px black;
+    background-color:antiquewhite;
+}
+
+.CMImg {
+    max-width: 20vw;
+    height: auto;
+    padding: 2vw 2vw 2vw 2vw;
+    background-color:antiquewhite;
+}
+
+.text4 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #d4af37;
+    text-shadow: 1px 1px 1px black;
+    font-size: 2vw;
+    margin-left: 3vw;
+}
+
+
+/*Registry*/
+
+.Gifts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100vw;
+    padding: 20px 20px 20px 20px;
+    background-color: #650015;
+    margin: 20px 20px 20px 20px;
+    box-shadow: 5px 5px 5px 5px grey;
+    margin-top: 5vh;
+}
+
+.Img5 {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 5px 5px 5px 5px black;
+    background-color:antiquewhite;
+}
+
+.ceilidhImg {
+    max-width: 20vw;
+    height: auto;
+    padding: 2vw 2vw 2vw 2vw;
+    background-color:antiquewhite;
+}
+
+.text2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #d4af37;
+    text-shadow: 1px 1px 1px black;
+    font-size: 2vw;
+    padding: 2px 20px 2px 2px;
+}
+
+/*Directions*/
+
+.Directions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100vw;
+    padding: 20px 20px 20px 20px;
+    background-color: #650015;
+    margin: 20px 20px 20px 20px;
+    box-shadow: 5px 5px 5px 5px grey;
+    margin-top: 5vh;
+    
+}
+
+.Img6 {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 5px 5px 5px 5px black;
+    background-color:antiquewhite;
+}
+
+.OswaldImg {
+    max-width: 50vw;
+    height: auto;
+    padding: 2vw 2vw 2vw 2vw;
+    background-color:antiquewhite;
+}
+
+.text6 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #d4af37;
+    text-shadow: 1px 1px 1px black;
+    font-size: 2vw;
+    margin-left: 3vw;
+}
+
+
+
+/*
+
+       <!--Registry-->
+     <div class="Gifts">
+      <div class = "text1">
+        <h2 class = "T5">
+          Is there a registry?
+        </h2>
+  
+        <p1 class="para5">
+          Give us money pls
+        </p1>
+
+      </div>
+  
+      <!--Image-->
+      <div class="Img5">
+        <img src="../Images/ceilidh.jpg" alt="Claire and Matthew" class="ceilidhImg">
+      </div>  
+
+     </div>
+     */
+
+
+
+
+
+
+/*Nae Wains*/
+

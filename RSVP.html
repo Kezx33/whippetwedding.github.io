@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width">
+     <title>RSVP</title>
+     <link rel="stylesheet" href="./CSS/RSVP.css">
+     <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <script src="./JavaScript/RSVP.js"></script>
+
+    </head>
+
+    <body>
+      
+      <h1 class="RSVP_TITLE">
+        RSVP
+      </h1>
+
+     <!--navigation bar-->
+     <nav>
+        <a href="./index.html">Home</a>
+        <a href="./Details.html">Details</a>
+        <a href="./Accommodation.html">Accommodation</a>
+        <a href="./RSVP.html">RSVP</a>
+        <a href="./Gallery.html">Gallery</a>
+     </nav>
+
+
+     <div class="buttons">
+      <div class="day">
+         <button type="button" id="dayButton">Day Guest</button>
+      </div>
+      <div class="night">
+         <button type="button" id="nightButton">Evening Guest</button>
+      </div>
+     </div>
+
+
+     <div class="forms">
+      
+      <!--Day Guest-->
+
+      <form class="gform" id="dayForm" method="POST" action="https://script.google.com/macros/s/AKfycbyv33D-xtvRRtCmBiDoALdqgNAqzW5VKFWDyhoEFGrS5Fxs9QUp5aOB-8j8PEXqQ3P0Pg/exec">
+         <!--Name-->
+         <b>Full Name:</b> <input type="text" class="name_guest" name="fullName">
+         <br><br>
+
+         <!--Attending-->
+         <b>Please confirm your Attendance</b>
+         <br>
+         <input type="radio" id="AttendanceYes" name="Attendance" value="Yes">
+         <label for="AttendanceYes">Accepts with Delight</label>
+         <br>
+         <input type="radio" id="AttendanceNo" name="Attendance" value="No">
+         <label for="AttendanceNo">Declines with Regret</label>
+
+         <br><br>
+
+         <!--Meal Choice-->
+         <b> Please select one of the Following options for each course</b>
+         <br><br>
+         <b> Starter</b>
+            <br>
+            <input type="radio" id="Soup" name="Starter" value="Soup">
+            <label for="Soup">Mushroom & Tarragon Soup</label>
+            <br>
+            <input type="radio" id="Duck" name="Starter" value="Duck">
+            <label for="Duck">Pressed Duck leg Confit with Hoi Sin dressing and Oriental Salad </label>
+            <br>
+            <input type="radio" id="Haggis" name="Starter" value="Haggis">
+            <label for="Haggis">Haggis, Neeps & Tatties with Whiskey cafe au lait</label>
+            <br> <br>
+
+         <b> Mains </b>
+            <br>
+               <input type="radio" id="Wellington" name="Mains" value="Wellington">
+               <label for="Wellington">Mixed bean and Mushroom Wellington with Romesco sauce</label>
+               <br>
+               <input type="radio" id="Salmon" name="Mains" value="Salmon">
+               <label for="Salmon">Piri Piri Spiced Salmon with Ratatouille </label>
+               <br>
+               <input type="radio" id="Beef" name="Mains" value="Beef">
+               <label for="Beef">8 hour Braised Flat Iron Steak with Red Wine jus</label>
+            
+         <br> <br>
+
+         <b> Desserts </b>
+            <br>
+               <input type="radio" id="Chocolate" name="Desserts" value="Chocolate">
+               <label for="Chocolate">Assiete of Chocolate - Cheesecake, Tart & Brownie with Vanilla Ice Cream</label>
+               <br>
+               <input type="radio" id="Crumble" name="Desserts" value="Crumble">
+               <label for="Crumble">Apple Crumble Tart with Vanilla Ice Cream & Custard </label>
+               <br>
+               <input type="radio" id="Cranachan" name="Desserts" value="Cranachan">
+               <label for="Cranachan">Raspberry Cranachan</label>
+            
+         <br> <br>
+         
+         <!--Diet Reqs-->
+         <b>Dietry Requirements:</b>
+         <br>
+         <textarea class="Dietry" name="comment" placeholder="Please enter any dietry requirements here e.g. Vegan, allergies etc"></textarea>
+         <br><br>
+
+         <!--Submit-->
+         <button type="button" id="submit">Submit</button>
+      </form>
+
+
+       <!--Evening Guest-->
+
+       <form class="gform" id="nightForm" method="POST" action="https://script.google.com/macros/s/AKfycbyv33D-xtvRRtCmBiDoALdqgNAqzW5VKFWDyhoEFGrS5Fxs9QUp5aOB-8j8PEXqQ3P0Pg/exec">
+         <!--Name-->
+         <b>Full Name:</b> <input type="text" class="name_guest" name="fullName">
+         <br><br>
+
+         <!--Attending-->
+         <b>Please confirm your Attendance</b>
+         <br>
+         <input type="radio" id="AttendanceYes" name="Attendance" value="Yes">
+         <label for="AttendanceYes">Accepts with Delight</label>
+         <br>
+         <input type="radio" id="AttendanceNo" name="Attendance" value="No">
+         <label for="AttendanceNo">Declines with Regret</label>
+
+         <br><br>
+
+         <!--Submit-->
+         <button type="button" id="submit">Submit</button>
+
+         <div style="display:none" class="thankyou_message">
+            <h2><em>Thanks</em> for contacting us! We will get back to you soon!
+            </h2>
+           </div>
+      </form>
+
+      </div>
+
+
+
+
+
+
+      <script data-cfasync="false" type="text/javascript" src="../form.js"></script>
+
+    </body>
+
+</html>
