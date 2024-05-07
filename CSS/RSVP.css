@@ -1,4 +1,4 @@
-@import url(//fonts.googleapis.com/css?family=Dancing+Script);
+@import url('//fonts.googleapis.com/css?family=Dancing+Script');
 
 * {
     box-sizing: border-box;
@@ -252,4 +252,44 @@ input[type="radio"]{
 #submit:hover {
     color: black;
     text-decoration: underline;
+}
+
+
+.ThankYou {
+    display: none;
+    margin-left: 22vw;
+    background-color: #F9EED5;
+    max-width: 50%;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 0.1vw 0.1vw #650015;
+    font-size: 2.5vw;
+    color: #d4af37;
+    border: #d4af37;
+    box-shadow: 0.2vw 0.2vw 0.2vw 0.2vw #650015;
+    
+
+}
+
+.info {
+    display: block;
+}
+
+.Title {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Dancing Script';
+    font-size: 3vw;
+    margin-top: 5vh;
+    color: #d4af37;
+    text-shadow: 0.1vw 0.1vw #650015;
+}
+
+.Text {
+    margin-left: 45vw;
+    font-weight: bold;
+    color: #d4af37;
+    font-size: 1.5vw;
+    text-shadow: 0.01vw 0.01vw #650015;
 }
