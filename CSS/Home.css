@@ -181,6 +181,7 @@ body {
   max-width: 100%;
 }
 
+
 u1 {
   display: flex;
   flex-wrap: wrap;
@@ -195,7 +196,7 @@ u1 li {
   text-transform: uppercase;
   text-align: center;
   color: #FFF8DC;
-  text-shadow: 1px 5px 1px #650015;
+  text-shadow: 2px 1.5px 1px black;
 }
 
 li span {
