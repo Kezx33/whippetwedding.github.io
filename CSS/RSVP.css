@@ -53,6 +53,10 @@ body {
     width: 100%; 
 }
 
+footer {
+    padding: 2vw;
+}
+
 /*Title*/
 .RSVP_TITLE {
     font-family: 'Dancing Script';
