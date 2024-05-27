@@ -166,13 +166,13 @@ body {
   position: absolute;
   display: block;
   top: 50%;
-  left: 52%;
+  left: 51%;
   margin-left:auto;
   margin-right:auto;
 }
 
 .countdown_heading {
-  font-size: 3.5vw;
+  font-size: 3vw;
   font-family: 'Dancing Script';
   color: #650015;
   font-weight: 600;
@@ -201,7 +201,7 @@ u1 li {
 
 li span {
   display: block;
-  font-size: 4vw;
+  font-size: 3vw;
 }
 
 li.seperator{
