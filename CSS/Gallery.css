@@ -105,8 +105,9 @@ body {
   font-size: 5vw;
   color: #d4af37;
 }
-.url a {
-  color: inherit ;
+
+a {
+  color: #d4af37;
 }
 
 .url a:hover {
