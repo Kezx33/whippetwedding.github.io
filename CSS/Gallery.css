@@ -67,12 +67,56 @@ body {
     text-align: center;
   }
 
+  .bground {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    max-width: 100vw;
+    margin: 10vw;
+    padding: 5vw;
+    background-color: #650015;
+    box-shadow: 5px 5px 5px 5px grey;
+  }
+
 .info {
-    margin-top: 15vh;
+    margin-top: 5vh;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #d4af37;
     text-shadow: 1px 1px 1px black;
     font-size: 2vw;
     padding: 2px 20px 2px 2px;
     text-align: center;
+}
+
+.QR {
+  display: block;
+  margin-top: 5vh;
+  margin-right: auto;
+  margin-left: auto;
+  
+}
+
+.url {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  text-align: center;
+  font-size: 5vw;
+  color: #d4af37;
+}
+
+.url a:hover {
+  color: black;
+}
+
+.url a:visited {
+  color: inherit;
+}
+
+.QR_CODE {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 5px 5px 5px 5px BLACK;
 }
